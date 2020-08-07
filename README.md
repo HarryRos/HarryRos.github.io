@@ -1,30 +1,7 @@
-Welcome to GitHub Pages
-You can use the editor on GitHub to maintain and preview the content for your website in Markdown files.
+Welcome to my personal page
 
-Whenever you commit to this repository, GitHub Pages will run Jekyll to rebuild the pages in your site, from the content in your Markdown files.
+# Short bio
 
-Markdown
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Charalambos Rossides graduated from the Electrical and Computer Engineering School at the National Technical University of Athens (NTUA) in 2014. He received the MSc degree in Systems and Control from the University of Twente, The Netherlands, in 2016. In the meantime he worked at DEMCON advanced mechatronics, Enschede, The Netherlands supporting the development of medical devices. Currently being a PhD candidate at the bio-engineering group, Faculty of Engineering and Physical sciences, at the University of Southampton, UK he is developing biomedical imaging and analysis tools for the study of early stages of colorectal cancer. His academic interests include (biomedical) signal processing and analysis, X-ray micro-computed tomographic imaging, computer engineering, systems and control theory.
 
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-For more details see GitHub Flavored Markdown.
-
-Jekyll Themes
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your repository settings. The name of this theme is saved in the Jekyll _config.yml configuration file.
-
-Support or Contact
-Having trouble with Pages? Check out our documentation or contact support and we’ll help you sort it out.
+[comment]: <> ([Link](url) and ![Image](src))
