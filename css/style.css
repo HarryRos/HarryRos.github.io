@@ -145,10 +145,16 @@ p.sub-text {
 	text-align: center;
 }
 
+.column.one_third {
+	width: 33%;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
 .column.two_thirds {
 	width: 66%;
-	padding: 0 20px;
-	text-align: center;
+	padding-left: 20px;
+	padding-right: 20px;
 }
 
 .column.half {
