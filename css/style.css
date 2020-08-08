@@ -119,12 +119,6 @@ p.sub-text {
 	text-align: center;
 	line-height: 28px;
 }
-p.quote {
-	font-size: 20px;
-	text-align: center;
-	line-height: 28px;
-	font-style: italic;
-}
 
 .center-text {
 	text-align: center;
@@ -196,6 +190,13 @@ p.quote {
 	border-radius: 100px;
 }
 
+.quote {
+	font-size: 20px;
+	text-align: center;
+	line-height: 28px;
+	font-style: italic;
+	color: #1D1D1D;
+}
 hr {
 	border: 1px solid #eee;
 	margin: 60px 0;
