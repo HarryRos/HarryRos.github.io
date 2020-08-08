@@ -60,11 +60,11 @@ footer {
 }
 
 footer {
-	font-size: .4em;
+	font-size: .6em;
 }
 
 section.hero {
-	color: #fff;
+	color: #696969;
 	background-image: url('/images/lake.jpg');
 	background-size: cover;
 }
@@ -118,6 +118,12 @@ p.sub-text {
 	font-size: 20px;
 	text-align: center;
 	line-height: 28px;
+}
+p.quote {
+	font-size: 20px;
+	text-align: center;
+	line-height: 28px;
+	font-style: italic;
 }
 
 .center-text {
