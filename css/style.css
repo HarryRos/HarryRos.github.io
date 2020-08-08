@@ -102,6 +102,21 @@ nav.main-nav li a {
 	padding: 10px;
 }
 
+nav.ico-nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-align: center;
+}
+
+nav.ico-nav li,
+nav.ico-nav a {
+	display: inline-block;
+}
+
+nav.ico-nav li a {
+	padding: 3px;
+}
 a.active {
 	color: #FFE000;
 }
