@@ -1,7 +1,7 @@
 ---
 layout: page
-title: About me
-permalink: /about.html/
+title: "About me"
+permalink: /about.html
 ---
 
 # Vitae
