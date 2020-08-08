@@ -59,6 +59,10 @@ footer {
 	color: #ffffff;
 }
 
+footer {
+	font-size: .9em;
+}
+
 section.hero {
 	color: #fff;
 	background-image: url('/images/bg.jpg');
