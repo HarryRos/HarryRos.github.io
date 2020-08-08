@@ -1,3 +1,3 @@
 # Welcome
 
-![About](https://HarryRos.github.io/about.html)
+![About me](https://harryros.github.io/about.html)
