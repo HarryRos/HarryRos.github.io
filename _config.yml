@@ -1,4 +1,12 @@
 remote_theme: PandaSekh/Jekyll-YAMT
 title: Charalambos (Harry) Rossides
 description: Personal site
-show_downloads: false
+show_downloads: true
+
+#Plugins
+plugins: [jekyll-paginate, jekyll-feed, jekyll-seo-tag, jekyll-sitemap]
+
+#Pagination
+paginate: 3
+paginate_path: "/page:num/"
+
