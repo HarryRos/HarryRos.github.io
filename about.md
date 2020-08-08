@@ -2,6 +2,7 @@
 layout: "default"
 title: "About me"
 permalink: /about.html/
+group: navigation
 ---
 
 # Vitae
