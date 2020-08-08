@@ -227,3 +227,7 @@ input[type="submit"] {
 	margin: 30px 0 0 0;
 	font-size: 20px;
 }
+
+img.rounded {
+	border-radius: 100%;
+}
