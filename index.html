@@ -1,21 +1,4 @@
 ---
 layout: default
 ---
-<div class="container">
-  <nav class="main-nav">
-    <ul>
-      <li><a href="/">Home</a></li>
-      <li><a href="/about.html">About</a></li>
-    </ul>
-  </nav>
-</div>
 
-<div class="posts">
-  {% for post in site.pages %}
-    <article class="post">
-
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-    </article>
-  {% endfor %}
-</div>
