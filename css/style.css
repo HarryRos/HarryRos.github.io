@@ -109,6 +109,10 @@ nav.ico-nav ul {
 	text-align: center;
 }
 
+nav.ico-nav img {
+	width: 30px
+}
+
 nav.ico-nav li,
 nav.ico-nav a {
 	display: inline-block;
