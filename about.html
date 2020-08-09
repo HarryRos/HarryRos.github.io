@@ -41,11 +41,11 @@ navigation_weight: 3
 								<img class="rounded" src={{ post.avatar }} width="200">
 							</div>
 							<div class="column two_thirds" style="text-align:left">
-								{{ post.excerpt | truncate: 160 }}
+								{{ post.excerpt | truncate: 200 }}
 							</div>
 						</div>
 					{% else %}
-						{{ post.excerpt | truncate: 160 }}
+						{{ post.excerpt | truncate: 200 }}
 					{% endif %}
 				</div>
 			{% endif %}
