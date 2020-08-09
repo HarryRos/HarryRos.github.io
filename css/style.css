@@ -51,6 +51,7 @@ div.container {
 
 div.small-container {
 	max-width: 700px;
+	vertical-align: top;
 }
 
 header,
@@ -207,7 +208,7 @@ p.sub-text {
 	text-align: center;
 	line-height: 28px;
 	font-style: italic;
-	color: #A9A9A9;
+	color: #000000;
 }
 hr {
 	border: 1px solid #eee;
