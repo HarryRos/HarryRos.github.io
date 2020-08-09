@@ -41,7 +41,7 @@ img {
 
 div.container,
 div.small-container {
-	margin: 0 33%;
+	margin: 0 auto;
 	padding: 0 20px;
 }
 
@@ -111,7 +111,7 @@ div.content {
 }
 
 section.hero {
-	padding: 120px 0;
+	padding: 50px 0;
 }
 
 p.sub-text {
