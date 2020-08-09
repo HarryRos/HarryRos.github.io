@@ -7,7 +7,7 @@ navigation_weight: 3
 <div class="container">
 	<div class="blog-posts">
 		<div class="blog-post spacing">
-			<h1>Vitae</h1>
+			<h1>Academic vitae</h1>
 			<p>
 				My name is Charalambos Rossides but most people call me Harry.<br><br>
 				I graduated from the Electrical and Computer Engineering School
@@ -26,5 +26,24 @@ navigation_weight: 3
 				X-ray micro-computed tomographic imaging, computer engineering, systems and control theory.
 			</p>
 		</div>
+	</div>
+</div>
+
+<div class="container">
+	<div class="blog-posts">
+		{% for post in site.interests %}
+			<div class="blog-post spacing">
+				<h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+				<!--
+				<p class="summary">
+					{{ post.category }}
+					<span class="date">
+						{{ post.date | date: '%B %d, %Y' }}
+					</span>
+				</p>
+				-->
+				{{ post.excerpt }}
+			</div>
+		{% endfor %}
 	</div>
 </div>
