@@ -35,9 +35,18 @@ navigation_weight: 3
 			{% if post.category == "Interests" %}
 				<div class="blog-post spacing">
 					<h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-					{{ post.excerpt | truncate: 160 }}
-					here starts the next
-					{{ post.excerpt }}
+					{% if post.avatar %}
+						<div class="columns spacing">
+							<div class="column one_third">
+								<img class="rounded" src={{ post.avatar }} width="200">
+							</div>
+							<div class="column two_thirds" style="text-align:left">
+								{{ post.excerpt | truncate: 160 }}
+							</div>
+						</div>
+					{% else %}
+						{{ post.excerpt | truncate: 160 }}
+					{% endif %}
 				</div>
 			{% endif %}
 		{% endfor %}
