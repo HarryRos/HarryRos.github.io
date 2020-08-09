@@ -36,6 +36,7 @@ navigation_weight: 3
 				<div class="blog-post spacing">
 					<h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
 					{{ page.excerpt | strip_html | normalize_whitespace | truncate: 160 | escape }}
+					here starts the next
 					{{ post.excerpt }}
 				</div>
 			{% endif %}
