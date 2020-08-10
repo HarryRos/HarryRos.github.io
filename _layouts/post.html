@@ -8,4 +8,9 @@ layout: default
 		<p class="summary">{{ page.category }}<span class="date">{{ page.date | date: '%B %d, %Y' }}</span></p>
 		{{ content }}
 	</div>
+	{% if page.skills %}
+		{% for skill in page.skills %}
+			<span class="badge badge-secondary">{{ skill }}</span>
+		{% endfor %}
+	{% endif %}
 </div>
