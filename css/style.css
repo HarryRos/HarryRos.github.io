@@ -106,6 +106,8 @@ a.active {
 	color: #FFE000;
 }
 
+a {text-decoration: underline;}
+
 div.content {
 	background: #fff;
 }
