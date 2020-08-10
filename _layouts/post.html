@@ -8,8 +8,8 @@ layout: default
 		<p class="summary">
 			{% if include.skills %}
 				{% for skill in include.skills %}
-					{% capture skill %}{{ skill }}{% endcapture %}
-					{% include skill_badge.html skill=skill %}
+					{% capture askill %}{{ skill }}{% endcapture %}
+					{% include skill_badge.html skill=askill %}
 				{% endfor %}
 			{% endif %}
 		</p>
