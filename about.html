@@ -39,8 +39,9 @@ navigation_weight: 3
 								<div>{{ post.excerpt | truncate: 200 }}</div>
 								{% if post.skills %}
 									<div>
-										{% for skill in post.skills %}
-											<span class="badge-pill badge-secondary">{{ skill }}</span>
+										{% for s in post.skills %}
+											{% capture askill %}{{ s }}{% endcapture %}
+											{% include skill_badge.html skill=askill %}
 										{% endfor %}
 									</div>
 								{% endif %}
@@ -50,8 +51,9 @@ navigation_weight: 3
 						<div>{{ post.excerpt | truncate: 200 }}</div>
 						{% if post.skills %}
 							<div>
-								{% for skill in post.skills %}
-									<span class="badge-pill badge-secondary">{{ skill }}</span>
+								{% for s in post.skills %}
+									{% capture askill %}{{ s }}{% endcapture %}
+									{% include skill_badge.html skill=askill %}
 								{% endfor %}
 							</div>
 						{% endif %}
