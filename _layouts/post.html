@@ -6,10 +6,12 @@ layout: default
 
 	<div class="blog-post spacing">
 		<p class="summary">
-			This is a test
-			{% assign allSkills='' %}
-			allSkills = {{ page.skills }}
-			{% include skill_badges.html skills=allSkills %}
+			{% if include.skills %}
+				{% for skill in include.skills %}
+					{% capture skill %}{{ skill }}{% endcapture %}
+					{% include skill_badge.html skill=skill %}
+				{% endfor %}
+			{% endif %}
 		</p>
 		{{ content }}
 	</div>
