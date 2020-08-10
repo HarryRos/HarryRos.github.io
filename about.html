@@ -47,8 +47,13 @@ navigation_weight: 3
 					{% else %}
 						{{ post.excerpt | truncate: 200 }}
 					{% endif %}
+					{% if post.skills %}
+						{% for skill in post.skills %}
+							<span class="badge badge-secondary">{{ skill }}</span>
+						{% endfor %}
+					{% endif %}
 				</div>
-			{% endif %}
+				{% endif %}
 		{% endfor %}
 	</div>
 </div>
