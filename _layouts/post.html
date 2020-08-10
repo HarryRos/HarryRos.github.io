@@ -2,16 +2,16 @@
 layout: default
 ---
 <div class="container">
-	<h2 class="spacing">{{ page.title }}
-		{% if page.skills %}
-			{% for skill in page.skills %}
-				<span class="badge-pill badge-secondary">{{ skill }}</span>
-			{% endfor %}
-		{% endif %}
-	</h2>
+	<h2 class="spacing">{{ page.title }}</h2>
 
 	<div class="blog-post spacing">
-		<p class="summary">{{ page.category }}</p>
+		<p class="summary">{{ page.category }}
+			{% if page.skills %}
+				{% for skill in page.skills %}
+					<span class="badge-pill badge-secondary">{{ skill }}</span> 
+				{% endfor %}
+			{% endif %}
+		</p>
 		{{ content }}
 	</div>
 </div>
