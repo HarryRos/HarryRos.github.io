@@ -6,11 +6,8 @@ layout: default
 
 	<div class="blog-post spacing">
 		<p class="summary">
-			{% if page.skills %}
-				{% for skill in page.skills %}
-					<span class="badge-pill badge-secondary">{{ skill }}</span>
-				{% endfor %}
-			{% endif %}
+			{% capture allSkills %}{{ page.skills }}{% endcapture %}
+			{% include.skill_badges.html skills=allSkills %}
 		</p>
 		{{ content }}
 	</div>
