@@ -1,5 +1,5 @@
-{% if skills %}
-	{% for skill in skills %}
+{% if include.skills %}
+	{% for skill in include.skills %}
 		<span class="badge-pill badge-secondary">{{ skill }}</span>
 	{% endfor %}
 {% endif %}
