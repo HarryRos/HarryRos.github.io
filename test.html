@@ -8,7 +8,7 @@ title: Test
 			{% for post in site.posts %}
 				{% if post.skills %}
 					{% for s in post.skills %}
-						<script>getBadge({{ s }});</script>
+						<script>getBadge("{{ s }}");</script>
 						<!-- <span class="badge-pill badge-secondary text-nowrap flex-wrap bg-success" style="font-size:40px;">{{ s }}</span> -->
 						<!-- {% capture askill %}{{ s }}{% endcapture %} -->
 						<!-- {% include skill_badge.html skill=askill %} -->
