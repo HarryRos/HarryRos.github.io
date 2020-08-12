@@ -2,6 +2,21 @@
 layout: default
 title: Test
 ---
+
+<div class="container">
+	<div class="blog-post spacing">
+			{% for post in site.posts %}
+				{% if post.skills %}
+					{% for s in post.skills %}
+						<span class="badge-pill badge-secondary text-nowrap flex-wrap bg-success" style="font-size:40px;">{{ s }}</span>
+						<!-- {% capture askill %}{{ s }}{% endcapture %} -->
+						<!-- {% include skill_badge.html skill=askill %} -->
+					{% endfor %}
+				{% endif %}
+			{% endfor %}
+		</div>
+</div>
+
 <!--
 sizes:
 20 to 40
@@ -23,8 +38,9 @@ bg-dark
 <span class="badge-pill badge-secondary text-nowrap flex-wrap bg-danger" style="font-size:43px;">Broad theoretical background</span>
 <span class="badge-pill badge-secondary text-nowrap flex-wrap  bg-success" style="font-size:22px;">Interdisciplinary approach</span> -->
 
-<div class="container" style="text-align:center;">
+<!-- <div class="container" style="text-align:center;">
 	<div class="columns spacing">
 		<div id="skillBardgeGrid" class="column"></div>
 	</div>
 </div>
+ -->
