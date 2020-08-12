@@ -252,7 +252,11 @@ img.ico-nav {
 }
 
 
-#skillBardgeGrid {}
+#skillBardgeGrid {
+	content: "";
+	display: table;
+	clear: both;
+}
 
 /* ============================= */
 #photos {
