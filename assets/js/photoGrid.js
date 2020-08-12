@@ -18,4 +18,8 @@ function getBadge() {
 
 // $('#skillBardgeGrid').append(allBadges);
 
-document.getElementsByClassName("badgeToDecorate").innerHTML = getBadge();
+var x = document.getElementsByClassName("badgeToDecorate");
+var i;
+for (i = 0; i < x.length; i++) {
+	x[i].style.font-size = getRandomSize(20, 40)+'px';
+}
