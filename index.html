@@ -50,4 +50,13 @@ navigation_weight: 1
 			</p>
 		</div>
 	</div>
+	<div class="columns spacing">
+			{% for post in site.posts %}
+				{% if post.skills %}
+					{% for s in post.skills %}
+						<span class="badgeToDecorate badge-pill badge-secondary text-nowrap flex-wrap">{{ s }}</span>
+					{% endfor %}
+				{% endif %}
+			{% endfor %}
+		</div>
 </div>
