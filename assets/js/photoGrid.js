@@ -2,13 +2,12 @@ function getRandomSize(min, max) {
 	return Math.round(Math.random() * (max - min) + min);
 }
 
-var allImages = "";
+var allBadges = "";
 
 for (var i = 0; i < 25; i++) {
-	var width = getRandomSize(200, 400);
-	var height =  getRandomSize(200, 400);
+	var fontSize = getRandomSize(20, 40);
 	// allImages += '<img src="https://placekitten.com/'+width+'/'+height+'" alt="pretty kitty">';
-	allImages += '<p class="circle" align="center" width="'+width+'px" height="'+height+'px"><span>Some Text</span></p>';
+	allBadges += '<span class="badge-pill badge-secondary text-nowrap flex-wrap bg-primary" style="font-size:'+fontSize+'px;">Attention to detail</span>';
 }
 
-$('#photos').append(allImages);
+$('#skillBardgeGrid').append(allBadges);
