@@ -18,4 +18,4 @@ function getBadge() {
 
 // $('#skillBardgeGrid').append(allBadges);
 
-document.getElementById("badgeToDecorate").innerHTML = getBadge();
+document.getElementsByClassName("badgeToDecorate").innerHTML = getBadge();
