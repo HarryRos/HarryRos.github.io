@@ -2,7 +2,7 @@ function getRandomSize(min, max) {
 	return Math.round(Math.random() * (max - min) + min);
 }
 
-function getBadge(skill) {
+function getBadge() {
 	var fontSize = getRandomSize(20, 40);
 	return <span class="badge-pill badge-secondary text-nowrap flex-wrap bg-success" style="font-size:'+fontSize+'px;">skill</span>
 }
@@ -17,4 +17,4 @@ function getBadge(skill) {
 
 // $('#skillBardgeGrid').append(allBadges);
 
-document.getElementById("badgePlaceHolder").innerHTML = getBadge();
+document.getElementById("badgeToDecorate").innerHTML = getBadge();
