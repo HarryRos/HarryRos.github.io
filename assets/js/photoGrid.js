@@ -5,7 +5,7 @@ function getRandomSize(min, max) {
 function getBadge() {
 	var fontSize = getRandomSize(20, 40);
 	// return <span class="badge-pill badge-secondary text-nowrap flex-wrap bg-success" style="font-size:'+fontSize+'px;">skill</span>
-	return fontSize
+	return fontSize;
 }
 
 // var allBadges = "";
