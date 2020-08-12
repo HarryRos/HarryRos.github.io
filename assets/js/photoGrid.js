@@ -17,4 +17,4 @@ function getBadge(skill) {
 
 // $('#skillBardgeGrid').append(allBadges);
 
-// document.getElementById("badgePlaceHolder").innerHTML = getBadge("John");
+document.getElementById("badgePlaceHolder").innerHTML = getBadge();
