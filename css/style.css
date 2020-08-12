@@ -253,9 +253,9 @@ img.ico-nav {
 
 
 #skillBardgeGrid {
-	content: "";
+	box-sizing: border-box;
 	display: table;
-	clear: both;
+	width: 100%;
 }
 
 /* ============================= */
