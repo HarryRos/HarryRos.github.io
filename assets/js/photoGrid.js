@@ -19,7 +19,9 @@ function getBadge() {
 // $('#skillBardgeGrid').append(allBadges);
 
 var x = document.getElementsByClassName("badgeToDecorate");
+var bgColors = ['bg-primary', 'bg-success', 'bg-danger', 'bg-warning', 'bg-info', 'bg-dark']
 var i;
 for (i = 0; i < x.length; i++) {
-	x[i].style.font-size = getRandomSize(20, 40)+'px';
+	x[i].style.fontSize = getRandomSize(20, 40)+'px';
+	x[i].className += bgColors[getRandomSize(0, bgColors.length)];
 }
