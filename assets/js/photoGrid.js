@@ -2,12 +2,19 @@ function getRandomSize(min, max) {
 	return Math.round(Math.random() * (max - min) + min);
 }
 
-var allBadges = "";
-
-for (var i = 0; i < 25; i++) {
+function getBadge(skill) {
 	var fontSize = getRandomSize(20, 40);
-	// allImages += '<img src="https://placekitten.com/'+width+'/'+height+'" alt="pretty kitty">';
-	allBadges += '<span class="badge-pill badge-secondary text-nowrap flex-wrap bg-primary" style="font-size:'+fontSize+'px;">Attention to detail</span>';
+	return <span class="badge-pill badge-secondary text-nowrap flex-wrap bg-success" style="font-size:'+fontSize+'px;">skill</span>
 }
 
-$('#skillBardgeGrid').append(allBadges);
+// var allBadges = "";
+//
+// for (var i = 0; i < 25; i++) {
+// 	var fontSize = getRandomSize(20, 40);
+// 	// allImages += '<img src="https://placekitten.com/'+width+'/'+height+'" alt="pretty kitty">';
+// 	allBadges += '<span class="badge-pill badge-secondary text-nowrap flex-wrap bg-primary" style="font-size:'+fontSize+'px;">Attention to detail</span>';
+// }
+
+// $('#skillBardgeGrid').append(allBadges);
+
+// document.getElementById("badgePlaceHolder").innerHTML = getBadge("John");
