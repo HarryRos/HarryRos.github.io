@@ -251,6 +251,11 @@ img.ico-nav {
 	height: 50px;
 }
 
+#badgeToDecorate:hover {
+	font-size: 1.3rem;
+}
+
+
 /* ============ */
 
 .quote-card {
