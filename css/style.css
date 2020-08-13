@@ -251,7 +251,7 @@ img.ico-nav {
 	height: 50px;
 }
 
-a span.badgeToDecorate {
+span.badgeToDecorate a {
 	text-decoration:none;
 	display: inline-block;
 }
