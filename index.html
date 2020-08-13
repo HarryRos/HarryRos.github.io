@@ -54,7 +54,7 @@ navigation_weight: 1
 			{% for post in site.posts %}
 				{% if post.skills %}
 					{% for s in post.skills %}
-						<a class="badgeToDecorate" href="{{ post.url }}"><span class="badgeToDecorate badge-pill badge-secondary text-nowrap flex-wrap">{{ s }}</span></a>
+						<a class="text-decoration-none" href="{{ post.url }}"><span class="badgeToDecorate badge-pill badge-secondary text-nowrap flex-wrap">{{ s }}</span></a>
 					{% endfor %}
 				{% endif %}
 			{% endfor %}
