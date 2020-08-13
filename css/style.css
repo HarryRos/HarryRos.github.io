@@ -251,8 +251,8 @@ img.ico-nav {
 	height: 50px;
 }
 
-span.badgeToDecorate:hover {
-	font-size: 1.3rem;
+a.badgeToDecorate {
+	color:#ffffff;
 }
 
 
