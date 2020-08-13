@@ -251,12 +251,12 @@ img.ico-nav {
 	height: 50px;
 }
 
-span.badgeToDecorate a {
-	text-decoration:none;
+a span.badgeToDecorate {
+	text-decoration: none;
 	display: inline-block;
 }
 
-span.badgeToDecorate:hover {
+a span.badgeToDecorate:hover {
 	font-size: 1.3rem;
 }
 
