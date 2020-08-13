@@ -1,7 +1,0 @@
-defaults:
-  -
-    scope:
-      path: ""
-      category: "Interests"
-    values:
-      permalink: /:category/:title.html
