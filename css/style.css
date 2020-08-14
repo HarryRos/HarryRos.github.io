@@ -273,10 +273,10 @@ a.badgeToDecorate {
 	font-style: italic;
 }
 .quote-card p {
-  font-size: 22px;
-  line-height: 1.5;
-  margin: 0;
-  max-width: 80%;
+	font-size: 22px;
+	line-height: 1.5;
+	margin: 0;
+	max-width: 100%;
 }
 .quote-card cite {
 	font-size: 16px;
