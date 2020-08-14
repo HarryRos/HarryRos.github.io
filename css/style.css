@@ -259,17 +259,18 @@ a.badgeToDecorate {
 /* ============ */
 
 .quote-card {
-  background: #fff;
-  color: #222222;
-  padding: 20px;
-  padding-left: 50px;
-  box-sizing: border-box;
-  box-shadow: 0 2px 4px rgba(34, 34, 34, 0.12);
-  position: relative;
-  overflow: hidden;
-  min-height: 120px;
-  border-radius: 17px;
-  font-style: italic;
+	background: #D3D3D3;
+	color: #222222;
+	padding: 15px;
+	padding-left: 45px;
+	padding-right: 60px;
+	box-sizing: border-box;
+	box-shadow: 0 2px 4px rgba(34, 34, 34, 0.12);
+	position: relative;
+	overflow: hidden;
+	min-height: 120px;
+	border-radius: 17px;
+	font-style: italic;
 }
 .quote-card p {
   font-size: 22px;
@@ -278,30 +279,30 @@ a.badgeToDecorate {
   max-width: 80%;
 }
 .quote-card cite {
-  font-size: 16px;
-  margin-top: 10px;
-  display: block;
-  font-weight: 200;
-  opacity: 0.8;
+	font-size: 16px;
+	margin-top: 10px;
+	display: block;
+	font-weight: 200;
+	opacity: 0.8;
 }
 .quote-card:before {
-  content: "“";
-  position: absolute;
-  top: 10px;
-  left: 10px;
-  font-size: 5em;
-  color: rgba(238, 238, 238, 0.8);
-  font-weight: normal;
+	content: "“";
+	position: absolute;
+	top: -30px;
+	left: -10px;
+	font-size: 5em;
+	color: rgba(238, 238, 238, 0.8);
+	font-weight: normal;
 }
 .quote-card:after {
-  content: "”";
-  position: absolute;
-  bottom: -110px;
-  line-height: 100px;
-  right: -32px;
-  font-size: 25em;
-  color: rgba(238, 238, 238, 0.8);
-  font-weight: normal;
+	content: "”";
+	position: absolute;
+	bottom: -55px;
+	line-height: 100px;
+	right: 25px;
+	font-size: 8em;
+	color: rgba(238, 238, 238, 0.8);
+	font-weight: normal;
 }
 
 @media (max-width: 640px) {
