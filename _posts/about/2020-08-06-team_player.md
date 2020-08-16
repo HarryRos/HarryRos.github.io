@@ -9,7 +9,7 @@ skills:
   - Supportive
 ---
 
-is not simply being member of a team.
+is not simply about being member of a team.
 
 It is rather being able to function as a part of a greater whole, being able to **communicate effectively** in a technical but also emotional level.
 
