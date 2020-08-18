@@ -119,4 +119,5 @@ document.addEventListener('swiped-right', function(e) {
 	var next = current.nextSibling;
 	current.className = current.className.replace("active", "");
 	next.className  += " active";
+	document.getElementById("demo").innerHTML = next.innerHTML;
 });
