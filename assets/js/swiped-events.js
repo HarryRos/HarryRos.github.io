@@ -116,7 +116,8 @@ document.addEventListener('swiped-left', function(e) {
 	var next = current.nextSibling;
 	current.className = current.className.replace("active", "");
 	next.className  += " active";
-	document.getElementById("demo").innerHTML = next;
+	next.click();
+	// document.getElementById("demo").innerHTML = next;
 });
 
 document.addEventListener('swiped-right', function(e) {
