@@ -114,7 +114,7 @@ document.addEventListener('swiped-left', function(e) {
 	var next = current.nextSibling;
 	current.className = current.className.replace("active", "");
 	next.className  += " active";
-	next.click();
+	next.getElementsByClassName("navLink")[0].click();
 	// document.getElementById("demo").innerHTML = next;
 });
 
