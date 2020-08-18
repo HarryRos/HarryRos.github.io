@@ -109,7 +109,7 @@
 }(window, document));
 
 document.addEventListener('swiped-left', function(e) {
-	var navBar = document.getElementsByClassName("main-nav");
+	var navBar = document.getElementsByClassName("main-nav")[0];
 	var current = navBar.getElementsByClassName("active")[0];
 	var next = current.nextSibling;
 	current.className = current.className.replace("active", "");
