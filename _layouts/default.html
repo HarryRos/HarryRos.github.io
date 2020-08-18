@@ -15,15 +15,11 @@
 				<nav class="main-nav">
 					<ul>
 						{% assign navigation_pages = site.html_pages | sort: 'navigation_weight' %}
-
-
 								{% for p in navigation_pages %}{% if p.navigation_weight %}<li {% if p.url == page.url %}class="active"{% endif %}>
 									<a href="{{ p.url }}" {% if p.url == page.url %}class="navLink active"{% else %}class="navLink"{% endif %}>
 										{{ p.title }}
 									</a>
 								</li>{% endif %}{% endfor %}
-
-
 					</ul>
 				</nav>
 				<h1><a href="/">Harry Rossides</a></h1>
@@ -33,7 +29,7 @@
 			{{ content }}
 		</div>
 		<footer>
-			<div id="demo"></div>
+			<!-- <div id="demo"></div> -->
 			<!-- <div class="container">
 				<p class="center-text"> <a href="http://cloudcannon.com">Template borrowed from CloudCannon</a></p>
 			</div> -->
