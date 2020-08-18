@@ -4,37 +4,36 @@ title: Test
 ---
 
 
-<script src="/assets/js/jquery.mobile-1.4.5.min.js"></script>
+
 
 <script>
-    $(function() {
-        $(".tab-content").swiperight(function() {
-            var $tab = $('#tablist .active').prev();
-            if ($tab.length > 0)
-                $tab.find('a').tab('show');
-        });
-        $(".tab-content").swipeleft(function() {
-            var $tab = $('#tablist .active').next();
-            if ($tab.length > 0)
-                $tab.find('a').tab('show');
-        });
-    });
+$("#listitem").swiperight(function() {
+    $.mobile.changePage("#page1");
+});
 </script>
 
-<div role="tabpanel">
+<div data-role="page" id="home">
+    <div data-role="content">
+        <p>
+            <ul data-role="listview" data-inset="true" data-theme="c">
+                <li id="listitem">Swipe Right to view Page 1</li>
+            </ul>
+        </p>
+    </div>
+</div>
 
-  <!-- Nav tabs -->
-  <ul class="nav nav-tabs" role="tablist" id="tablist">
-    <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Home</a></li>
-    <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Profile</a></li>
-  </ul>
+<div data-role="page" id="page1">
+    <div data-role="content">
 
-  <!-- Tab panes -->
-  <div class="tab-content">
-    <div role="tabpanel" class="tab-pane active" id="home">...</div>
-    <div role="tabpanel" class="tab-pane" id="profile">...</div>
-  </div>
+        <ul data-role="listview" data-inset="true" data-theme="c">
+            <li data-role="list-divider">Navigation</li>
+            <li><a href="#home">Back to the Home Page</a></li>
+        </ul>
 
+        <p>
+            Yeah!<br />You Swiped Right to view Page 1
+        </p>
+    </div>
 </div>
 
 <!-- <div class="container">
