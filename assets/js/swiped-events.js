@@ -115,8 +115,15 @@ document.addEventListener('swiped-left', function(e) {
 	current.className = current.className.replace("active", "");
 	next.className  += " active";
 	next.getElementsByClassName("navLink")[0].click();
-	// document.getElementById("demo").innerHTML = next;
+	document.getElementById("demo").innerHTML = next;
 });
 
 document.addEventListener('swiped-right', function(e) {
+	var navBar = document.getElementsByClassName("main-nav")[0];
+	var current = navBar.getElementsByClassName("active")[0];
+	var next = current.previousSibling;
+	current.className = current.className.replace("active", "");
+	prev.className  += " active";
+	prev.getElementsByClassName("navLink")[0].click();
+	document.getElementById("demo").innerHTML = prev;
 });
