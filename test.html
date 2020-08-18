@@ -3,7 +3,41 @@ layout: default
 title: Test
 ---
 
-<div class="container">
+
+<script src="/assets/js/jquery.mobile-1.4.5.min.js"></script>
+
+<script>
+    $(function() {
+        $(".tab-content").swiperight(function() {
+            var $tab = $('#tablist .active').prev();
+            if ($tab.length > 0)
+                $tab.find('a').tab('show');
+        });
+        $(".tab-content").swipeleft(function() {
+            var $tab = $('#tablist .active').next();
+            if ($tab.length > 0)
+                $tab.find('a').tab('show');
+        });
+    });
+</script>
+
+<div role="tabpanel">
+
+  <!-- Nav tabs -->
+  <ul class="nav nav-tabs" role="tablist" id="tablist">
+    <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Home</a></li>
+    <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Profile</a></li>
+  </ul>
+
+  <!-- Tab panes -->
+  <div class="tab-content">
+    <div role="tabpanel" class="tab-pane active" id="home">...</div>
+    <div role="tabpanel" class="tab-pane" id="profile">...</div>
+  </div>
+
+</div>
+
+<!-- <div class="container">
 	<div class="blog-post spacing">
 		<blockquote class="quote-card blue-card">
 			<p>
@@ -14,7 +48,7 @@ title: Test
 			</cite>
 		</blockquote>
 	</div>
-</div>
+</div> -->
 
 
 <!--
