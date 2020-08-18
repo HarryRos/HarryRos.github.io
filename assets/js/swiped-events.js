@@ -111,7 +111,7 @@
 document.addEventListener('swiped-left', function(e) {
 	var navBar = document.getElementsByClassName("main-nav")[0];
 	var current = navBar.getElementsByClassName("active")[0];
-	var next = current.nextSibling;
+	var next = current.nextElementSibling;
 	current.className = current.className.replace("active", "");
 	next.className  += " active";
 	next.getElementsByClassName("navLink")[0].click();
@@ -121,7 +121,7 @@ document.addEventListener('swiped-left', function(e) {
 document.addEventListener('swiped-right', function(e) {
 	var navBar = document.getElementsByClassName("main-nav")[0];
 	var current = navBar.getElementsByClassName("active")[0];
-	var prev = current.previousSibling;
+	var prev = current.previousElementSibling;
 	current.className = current.className.replace("active", "");
 	prev.className  += " active";
 	prev.getElementsByClassName("navLink")[0].click();
