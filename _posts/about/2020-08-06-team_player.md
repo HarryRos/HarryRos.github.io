@@ -11,7 +11,7 @@ skills:
 
 is not simply about being member of a team.
 
-It is rather being able to function as a part of a greater whole, being able to **communicate effectively** in a technical but also emotional level.
+It is rather being able to **function as a part of a greater whole**, and to communicate effectively at an emotional and technical level.
 
 Interpersonal skills are particularly important in stressful situations. This became apparent to me while fighting against wildfire as a member of a **volunteering** rescue unit (ETEA) in Grammaticos, Greece, 2014. Each member of the team was so invested in our task that they gradually veered off the pre-defined path risking to be cut-off from the team. Right there and then I learned how important it is to communicate with the members of the team so that everyone is on the same page.
 
