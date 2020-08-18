@@ -109,15 +109,13 @@
 }(window, document));
 
 document.addEventListener('swiped-left', function(e) {
-	console.log(e.target); // the element that was swiped
-	document.getElementsByClassName("main-nav");
-});
-
-document.addEventListener('swiped-right', function(e) {
 	var navBar = document.getElementById("main-nav");
 	var current = navBar.getElementsByClassName("active")[0];
 	var next = current.nextSibling;
 	current.className = current.className.replace("active", "");
 	next.className  += " active";
 	document.getElementById("demo").innerHTML = next.innerHTML;
+});
+
+document.addEventListener('swiped-right', function(e) {
 });
