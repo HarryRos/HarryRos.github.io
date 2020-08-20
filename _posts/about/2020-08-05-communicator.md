@@ -10,7 +10,7 @@ skills:
   - Interpersonal skills
 ---
 
-begins with **careful listening** and concludes with a **good schematic**...
+_begins with **careful listening** and concludes with a **good schematic**..._
 
 It is pivotal to avoid the common mistake of listening what you think they are trying to say rather that what your colleague is verbalizing. In fact, it is usually the case that people comprehend each concept in different ways, so being able to **communicate complex ideas** is a skill admittedly difficult to master.
 
