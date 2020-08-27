@@ -1,5 +1,4 @@
 ---
-use_math: true
 title: "Working for Rolls Royce"
 layout: post
 category: Projects
