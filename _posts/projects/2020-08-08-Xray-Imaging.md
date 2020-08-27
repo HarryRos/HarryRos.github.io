@@ -2,7 +2,7 @@
 title: "Working for _Rolls Royce_ at -VIS X-ray Imaging Centre"
 layout: post
 category: Projects
-avatar: "/images/X-ray_imaging/RR.jpg"
+avatar: "/images/X-ray_imaging/RR.svg"
 skills:
   - Commercial experience
   - Industrial microCT
