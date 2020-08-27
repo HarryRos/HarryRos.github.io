@@ -1,6 +1,6 @@
 ---
 use_math: true
-title: "Working for Rolls Royce at $\mu$-VIS X-ray Imaging Centre"
+title: "Working for Rolls Royce"
 layout: post
 category: Projects
 avatar: "/images/X-ray_imaging/RR.svg"
