@@ -4,13 +4,13 @@ layout: post
 category: Projects
 avatar: "/images/X-ray_imaging/RR.jpg"
 skills:
-  -Commercial experience
-  -Industrial microCT
-  -Tilted-angle laminography
-  -Scatter reduction
-  -CAD
-  -3D printing
-  -non-destructive examination
+  - Commercial experience
+  - Industrial microCT
+  - Tilted-angle laminography
+  - Scatter reduction
+  - CAD
+  - 3D printing
+  - non-destructive examination
 ---
 
 Tilted-angle laminography and scatter reduction! These are the two principal technologies that I employed to optimally image a dense metallic part under development for a Rolls Royce jet engine.
