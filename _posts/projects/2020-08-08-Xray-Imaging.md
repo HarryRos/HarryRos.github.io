@@ -13,9 +13,9 @@ skills:
   - "Non-destructive examination"
 ---
 
-**Tilted-angle laminography** and **scatter reduction...** These are the two principal technologies that I employed while I was working for _Rolls Royce_ at $\mu$-<a href="https://www.southampton.ac.uk/muvis/">VIS</a> X-ray Imaging Centre. The goal was to optimally image a dense metallic part under development for a next-generation jet engine.
+**Tilted-angle laminography** and **scatter reduction...** are the two principal methods that I employed while working for _Rolls Royce_ at <nobr>$\mu$-<a href="https://www.southampton.ac.uk/muvis/">VIS</a></nobr> X-ray Imaging Centre. The goal was to optimally image a dense metallic part under development for a next-generation jet engine.
 
-This particular part was challenging to image with X-ray micro-computed tomography ($\mu$CT) because it was tabular in shape and made of a very dense metal. These two properties call for **two advanced approaches** when it comes to $\mu$CT imaging:
+This particular part was challenging to image with <nobr>X-ray</nobr> <nobr>micro-computed</nobr> tomography ($\mu$CT) because it was tabular in shape and made of a very dense metal. These two properties call for **two advanced approaches** when it comes to $\mu$CT imaging:
 
 Tilted angle laminography (TAL) is an unconventional method to position the part with respect to the X-ray gun and detector in order to minimise the X-ray path through the part. To perform TAL, I designed and **3D-printed** a bracket for accurate positioning of the part inside the CT scanner. I then **formulated a mathematical representation** of the geometry and **customized an open-source** <a href="https://github.com/CERN/TIGRE">CT reconstruction package</a> for this purpose.
 
