@@ -13,7 +13,7 @@ skills:
   - non-destructive examination
 ---
 
-Tilted-angle laminography and scatter reduction! These are the two principal technologies that I employed while working for _Rolls Royce_ at <nobr>$\mu$-VIS</nobr> <nobr>X-ray</nobr> Imaging Centre. The goal was to optimally image a dense metallic part under development for a next-generation jet engine.
+Tilted-angle laminography and scatter reduction! These are the two principal technologies that I employed while working for _Rolls Royce_ at <nobr>($\mu$-VIS)[https://www.southampton.ac.uk/muvis/]</nobr> <nobr>X-ray</nobr> Imaging Centre. The goal was to optimally image a dense metallic part under development for a next-generation jet engine.
 
 This particular part was challenging to image with X-ray micro-computed tomography <nobr>($\mu$CT)</nobr> because it was tabular in shape and made of a very dense metal. These two properties call for two advanced approaches when it comes to $\mu$CT imaging:
 
