@@ -1,5 +1,5 @@
 ---
-title: "Working for Rolls Royce"
+title: "Working for Rolls Royce at <nobr>$\mu$-VIS</nobr> <nobr>X-ray</nobr> Imaging Centre"
 layout: post
 category: Projects
 avatar: "/images/X-ray_imaging/RR.svg"
