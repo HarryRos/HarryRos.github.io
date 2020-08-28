@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="549.01984mm"
+   height="548.58209mm"
+   viewBox="0 0 549.01984 548.58209"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   sodipodi:docname="superresolution.svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.175"
+     inkscape:cx="56.347905"
+     inkscape:cy="882.5744"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     inkscape:window-x="294"
+     inkscape:window-y="1072"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(164.14086,137.55296)">
+    <g
+       id="g878"
+       transform="translate(628.95238,71.059524)">
+      <rect
+         y="-207.20509"
+         x="-791.68585"
+         height="545.76733"
+         width="546.20508"
+         id="rect859"
+         style="opacity:1;vector-effect:none;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:2.81477427;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal" />
+      <g
+         transform="translate(-589.64285,-102.80953)"
+         id="g846">
+        <g
+           id="g839">
+          <polygon
+             transform="matrix(2.7889229,0,0,2.7889229,-780.61616,-942.39427)"
+             points="393.252,364.146 361.118,330.593 251.231,330.416 217.504,364.146 302.271,466.223 "
+             id="polygon7"
+             style="clip-rule:evenodd;fill:#333333;fill-rule:evenodd;stroke-width:0.09486936" />
+          <path
+             d="m -132.89716,74.868161 62.589006,-64.680705 39.321028,0.485272 C -91.704767,40.028937 -106.41634,79.882647 -96.384582,116.19442 Z M 5.5477681,241.35571 C 54.161486,254.67562 84.161931,256.8705 127.39583,243.60359 l -62.248775,65.23848 z m -82.4628801,-93.47354 50.74167,56.98327 c 7.70858,-29.84984 87.873386,-11.6047 94.907051,12.8402 33.600941,11.0553 90.860321,-7.75599 91.660741,-25.276 -0.15619,-42.26056 -195.29991,-7.19822 -237.309462,-44.54747 z M 222.80487,20.651496 221.44388,80.93407 H 142.40022 C 143.47117,41.07757 113.18347,21.504907 54.872662,23.111328 13.814134,23.914539 -25.637971,39.962 -26.173442,66.442825 c 0,62.859535 221.072342,-5.081421 238.726242,82.652525 l 64.11177,-74.140731 z m -94.02016,-9.755653 41.93146,0.0502 -9.18951,31.208051 C 153.79855,23.25914 140.78822,16.362135 128.78471,10.895843 Z"
+             id="path9"
+             inkscape:connector-curvature="0"
+             style="clip-rule:evenodd;fill:#ececec;fill-rule:evenodd;stroke-width:0.26458332" />
+        </g>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.6918993px;line-height:1.25;font-family:Gigi;-inkscape-font-specification:Gigi;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.21729746"
+           x="70.738228"
+           y="158.25543"
+           id="text835"
+           inkscape:transform-center-x="4.2839742"
+           transform="matrix(0.98574152,-0.0095852,-0.19776943,1.0163878,0,0)"
+           inkscape:transform-center-y="0.041653236"><tspan
+             sodipodi:role="line"
+             id="tspan833"
+             x="70.738228"
+             y="158.25543"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:86.91899872px;font-family:Gigi;-inkscape-font-specification:Gigi;fill:#ffffff;stroke-width:0.21729746">R</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>

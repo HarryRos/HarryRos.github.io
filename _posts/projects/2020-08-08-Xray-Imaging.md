@@ -13,7 +13,7 @@ skills:
   - "Non-destructive examination"
 ---
 
-**Tilted-angle laminography** and **scatter reduction** are the two principal methods that I employed while working on an X-ray imaging project for _Rolls Royce_ at $\mu$-<a href="https://www.southampton.ac.uk/muvis/">VIS</a> X-ray Imaging Centre. The goal was to optimally image a dense metallic part under development for a next-generation jet engine.
+**Tilted-angle laminography** and **scatter reduction** are the two principal methods that I employed while working on an X-ray imaging project for _Rolls Royce_ at $\mu$-<a href="https://www.southampton.ac.uk/muvis/">VIS X-ray Imaging Centre</a>. The goal was to optimally image a dense metallic part under development for a next-generation jet engine.
 
 This particular part was challenging to image with <nobr>X-ray</nobr> <nobr>micro-computed</nobr> tomography ($\mu$CT) because it was tabular in shape and made of a very dense metal. These two properties call for **two advanced approaches** when it comes to $\mu$CT imaging:
 
