@@ -2,7 +2,7 @@
 title: "Super-resolution imaging"
 layout: post
 category: Projects
-avatar: "/images/super_resolution/superresolution.svg"
+avatar: "/images/super_resolution/super_resolution.png"
 skills:
   - "Sensor fusion"
   - "Advanced signal processing"
