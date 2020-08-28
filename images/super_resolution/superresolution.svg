@@ -25,9 +25,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.175"
-     inkscape:cx="56.347905"
-     inkscape:cy="882.5744"
+     inkscape:zoom="0.12374369"
+     inkscape:cx="2695.2748"
+     inkscape:cy="403.06324"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -54,45 +54,42 @@
      id="layer1"
      transform="translate(164.14086,137.55296)">
     <g
-       id="g878"
-       transform="translate(628.95238,71.059524)">
+       id="g927"
+       transform="translate(38.486812,-14.967094)">
       <rect
-         y="-207.20509"
-         x="-791.68585"
+         y="-119.51461"
+         x="-202.043"
          height="545.76733"
          width="546.20508"
          id="rect859"
          style="opacity:1;vector-effect:none;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:2.81477427;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal" />
       <g
-         transform="translate(-589.64285,-102.80953)"
-         id="g846">
-        <g
-           id="g839">
-          <polygon
-             transform="matrix(2.7889229,0,0,2.7889229,-780.61616,-942.39427)"
-             points="393.252,364.146 361.118,330.593 251.231,330.416 217.504,364.146 302.271,466.223 "
-             id="polygon7"
-             style="clip-rule:evenodd;fill:#333333;fill-rule:evenodd;stroke-width:0.09486936" />
-          <path
-             d="m -132.89716,74.868161 62.589006,-64.680705 39.321028,0.485272 C -91.704767,40.028937 -106.41634,79.882647 -96.384582,116.19442 Z M 5.5477681,241.35571 C 54.161486,254.67562 84.161931,256.8705 127.39583,243.60359 l -62.248775,65.23848 z m -82.4628801,-93.47354 50.74167,56.98327 c 7.70858,-29.84984 87.873386,-11.6047 94.907051,12.8402 33.600941,11.0553 90.860321,-7.75599 91.660741,-25.276 -0.15619,-42.26056 -195.29991,-7.19822 -237.309462,-44.54747 z M 222.80487,20.651496 221.44388,80.93407 H 142.40022 C 143.47117,41.07757 113.18347,21.504907 54.872662,23.111328 13.814134,23.914539 -25.637971,39.962 -26.173442,66.442825 c 0,62.859535 221.072342,-5.081421 238.726242,82.652525 l 64.11177,-74.140731 z m -94.02016,-9.755653 41.93146,0.0502 -9.18951,31.208051 C 153.79855,23.25914 140.78822,16.362135 128.78471,10.895843 Z"
-             id="path9"
-             inkscape:connector-curvature="0"
-             style="clip-rule:evenodd;fill:#ececec;fill-rule:evenodd;stroke-width:0.26458332" />
-        </g>
+         id="g919">
+        <polygon
+           style="clip-rule:evenodd;fill:#333333;fill-rule:evenodd;stroke-width:0.09486936"
+           id="polygon7"
+           points="302.271,466.223 393.252,364.146 361.118,330.593 251.231,330.416 217.504,364.146 "
+           transform="matrix(2.7889229,0,0,2.7889229,-780.61615,-957.51332)" />
+        <path
+           style="fill:#e6e6e6;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="M -70.308149,-4.9316004 -132.89715,59.749105 62.474364,294.25754 276.66457,59.835562 212.7014,-4.3667103 Z"
+           id="path911"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="cccccc" />
         <text
            xml:space="preserve"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.6918993px;line-height:1.25;font-family:Gigi;-inkscape-font-specification:Gigi;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.21729746"
-           x="70.738228"
-           y="158.25543"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:31.53469086px;line-height:1.25;font-family:Gigi;-inkscape-font-specification:Gigi;letter-spacing:0px;word-spacing:0px;fill:#333333;fill-opacity:1;stroke:none;stroke-width:0.78836727"
+           x="-10.279796"
+           y="210.19031"
            id="text835"
-           inkscape:transform-center-x="4.2839742"
-           transform="matrix(0.98574152,-0.0095852,-0.19776943,1.0163878,0,0)"
-           inkscape:transform-center-y="0.041653236"><tspan
+           inkscape:transform-center-x="16.254521"
+           transform="matrix(1.0308994,-0.00916532,-0.20682947,0.9718656,0,0)"
+           inkscape:transform-center-y="0.14449404"><tspan
              sodipodi:role="line"
              id="tspan833"
-             x="70.738228"
-             y="158.25543"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:86.91899872px;font-family:Gigi;-inkscape-font-specification:Gigi;fill:#ffffff;stroke-width:0.21729746">R</tspan></text>
+             x="-10.279796"
+             y="210.19031"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:315.34692383px;font-family:Gigi;-inkscape-font-specification:Gigi;fill:#333333;stroke-width:0.78836727">R</tspan></text>
       </g>
     </g>
   </g>

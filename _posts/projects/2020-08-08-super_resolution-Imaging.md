@@ -8,7 +8,7 @@ skills:
   - "Advanced signal processing"
 ---
 
-is a sensor-fusion technique where multiple observations of the same ground truth are combined to reconstruct an image with higher resolution than the individual observations.
+is a **sensor-fusion** technique where multiple observations of the same ground truth are combined to reconstruct an image with higher resolution than the individual observations.
 
 When it comes to X-ray imaging, technical constraints limit the spatial resolution that a detector can provide. In essence the detector's pixel size cannot go lower than a threshold value. Applying **super-resolution imaging** to this problem allows one to improve the spatial resolution of a given setup by recording the same signal multiple times.
 
