@@ -4,7 +4,6 @@ layout: post
 category: Projects
 avatar: "/images/X-ray_imaging/RR.svg"
 skills:
-  - "Commercial experience"
   - "Industrial microCT"
   - "Tilted-angle laminography"
   - "Scatter reduction"
