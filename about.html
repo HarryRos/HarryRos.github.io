@@ -6,7 +6,7 @@ navigation_weight: 3
 
 <div class="container">
 	<div class="blog-posts">
-		<div class="blog-post spacing">
+		<div class="row spacing">
 			<h1>Academic vitae</h1>
 			<p>
 				<br>
@@ -27,7 +27,7 @@ navigation_weight: 3
 				X-ray micro-computed tomographic <strong>imaging</strong>, computer engineering, <strong>systems and control</strong> theory.
 			</p>
 		</div>
-		<div class="blog-post">
+		<div class="row spacing">
 			<blockquote class="quote-card blue-card">
 				<p>
 					Harry has shown efficiency and competence in achieving <strong>good results</strong> in a <strong>short time frame</strong>. He is a very clever student, who can easily capture new mathematical concepts and computer science techniques and can implement them efficiently.
@@ -64,37 +64,7 @@ navigation_weight: 3
 
 		{% for post in site.posts %}
 			{% if post.category == "Interests" %}
-				<div class="blog-post spacing">
-					<h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-					{% if post.avatar %}
-						<div class="columns">
-							<div class="column one_third">
-								<a href="{{ post.url }}"><img class="rounded-img" src={{ post.avatar }} width="200"></a>
-							</div>
-							<div class="column two_thirds" style="text-align:left">
-								<div>{{ post.excerpt | truncate: 200 }}</div>
-								{% if post.skills %}
-									<div>
-										{% for s in post.skills %}
-											{% capture askill %}{{ s }}{% endcapture %}
-											{% include skill_badge.html skill=askill %}
-										{% endfor %}
-									</div>
-								{% endif %}
-							</div>
-						</div>
-					{% else %}
-						<div>{{ post.excerpt | truncate: 200 }}</div>
-						{% if post.skills %}
-							<div>
-								{% for s in post.skills %}
-									{% capture askill %}{{ s }}{% endcapture %}
-									{% include skill_badge.html skill=askill %}
-								{% endfor %}
-							</div>
-						{% endif %}
-					{% endif %}
-				</div>
+					{% include ico_text.html post=post %}
 				{% endif %}
 		{% endfor %}
 	</div>

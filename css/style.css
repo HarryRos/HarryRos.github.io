@@ -81,9 +81,18 @@ footer a {
 	color: #ffffff;
 }
 
+header a:hover{
+	color:#FFE000;
+	text-decoration: none;
+}
+
 header,
 footer {
 	padding: 10px 0;
+}
+
+.navbar-brand {
+	font-size: xx-large;
 }
 
 nav.main-nav ul {

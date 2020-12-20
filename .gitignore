@@ -3,3 +3,4 @@ _skillsplanning/
 _local/
 .sass-cache/
 .jekyll-metadata
+vendor

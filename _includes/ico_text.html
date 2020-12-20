@@ -1,0 +1,19 @@
+<div class="row spacing">
+    <div class="col-12">
+        <h3><a href="{{ post.url }}">{{ include.post.title }}</a></h3>
+    </div>
+    <div class="col-md-12 col-lg-4">
+    <a href="{{ include.post.url }}"><img class="rounded-img" src={{ include.post.avatar }} width="200"></a>
+    </div>
+    <div class="col-md-12 col-lg-8">
+    {{ include.post.excerpt | strip_html | truncate: 200 }}
+    <a href="{{ include.post.url }}">Read more.</a>
+    {% if include.post.skills %}
+        <div>
+        {% for skill in include.post.skills %}
+            {% include skill_badge.html skill=skill %}
+        {% endfor %}
+        </div>
+    {% endif %}
+    </div>
+</div>
