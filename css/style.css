@@ -186,6 +186,7 @@ p.sub-text {
 	max-width: 750px;
 	margin-left: auto;
 	margin-right: auto;
+	padding: 20px;
 }
 
 .blog-post .date {

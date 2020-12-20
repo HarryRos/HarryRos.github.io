@@ -2,10 +2,11 @@
 layout: default
 ---
 <div class="container">
-	<h2 class="spacing">{{ page.title }}</h2>
-
+<div class="row">
+	
 	<div class="blog-post spacing">
-		<p class="summary">
+		<h2 class="spacing">{{ page.title }}</h2>
+		<p>
 			{% if page.skills %}
 				{% for s in page.skills %}
 					{% capture askill %}{{ s }}{% endcapture %}
@@ -15,4 +16,7 @@ layout: default
 		</p>
 		{{ content }}
 	</div>
+
+</div>
+
 </div>

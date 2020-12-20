@@ -25,11 +25,11 @@ In the **written form**, it takes practice and several rounds of feedback until 
 Admittedly, one of the best ways to do so is using a good schematic. As I tend to **think visually**, sketching a meaningful schematic to quickly describe a concept is my go-to method...
 
 <div class="columns spacing">
-	<div style="text-align:center">
-		<div class="column half">
+	<div class="row">
+		<div class="col-md-12 col-lg-6">
 			<img src='/images/communicator/Harry_Rossides-visual_2.jpg' height='400px'/>
 		</div>
-		<div class="column half">
+		<div class="col-md-12 col-lg-6">
 			<img src='/images/communicator/Harry_Rossides-visual_1.jpg' height='400px'/>
 			</div>
 	</div>

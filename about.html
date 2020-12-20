@@ -5,8 +5,8 @@ navigation_weight: 3
 ---
 
 <div class="container">
-	<div class="blog-posts">
-		<div class="row spacing">
+	<div class="row spacing">
+		<div class="blog-post">
 			<h1>Academic vitae</h1>
 			<p>
 				<br>
@@ -27,7 +27,7 @@ navigation_weight: 3
 				X-ray micro-computed tomographic <strong>imaging</strong>, computer engineering, <strong>systems and control</strong> theory.
 			</p>
 		</div>
-		<div class="row spacing">
+		<div class="blog-post">
 			<blockquote class="quote-card blue-card">
 				<p>
 					Harry has shown efficiency and competence in achieving <strong>good results</strong> in a <strong>short time frame</strong>. He is a very clever student, who can easily capture new mathematical concepts and computer science techniques and can implement them efficiently.
@@ -62,10 +62,13 @@ navigation_weight: 3
 			</blockquote>
 		</div>
 
-		{% for post in site.posts %}
-			{% if post.category == "Interests" %}
-					{% include ico_text.html post=post %}
-				{% endif %}
-		{% endfor %}
+		<div class="blog-post">
+			{% for post in site.posts %}
+				{% if post.category == "Interests" %}
+						{% include ico_text.html post=post %}
+					{% endif %}
+			{% endfor %}
+
+		</div>
 	</div>
 </div>
