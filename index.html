@@ -42,11 +42,16 @@ navigation_weight: 1
 			</ul>
 		</nav>
 	</div>
-	<div class="columns spacing">
-		<div class="column one_third">
+
+
+	<div class="row spacing">
+		<div class="col-12">
+			<h3><a href="{{ post.url }}">{{ include.post.title }}</a></h3>
+		</div>
+		<div class="col-md-12 col-lg-4">
 			<img class="rounded-img" src="/images/Charalambos_Rossides.jpg" width="200" alt="Charalambos Rossides">
 		</div>
-		<div class="column two_thirds" style="text-align:left">
+		<div class="col-md-12 col-lg-8">
 			<p style="font-style:italic">
 				I am a passionate control engineer!<br><br>
 				I love solving problems in alternative ways,
@@ -55,6 +60,7 @@ navigation_weight: 1
 			</p>
 		</div>
 	</div>
+
 	<div class="columns" style="text-align:center; padding-bottom:50px;">
 			{% for post in site.posts %}
 				{% if post.skills %}
