@@ -12,9 +12,8 @@ is a **sensor-fusion** technique where multiple observations of the same ground 
 
 When it comes to X-ray imaging, technical constraints limit the spatial resolution that a detector can provide. In essence the detector's pixel size cannot go lower than a threshold value. Applying **super-resolution imaging** to this problem allows one to improve the spatial resolution of a given setup by recording the same signal multiple times.
 
-I am currently working on a project to double the spatial resolution of a <a href="https://www.southampton.ac.uk/muvis/about/equipment/hutch.page">Nikon X-tek micro-computed tomographic imager</a> at at VIS X-ray Imaging Centre. So far I have formulated the algorithm and performed _in silico_ simulations as a proof-of-concept.
+Working at <a href="https://www.southampton.ac.uk/muvis/about/about.page">μ-VIS</a> X-ray Imaging Centre, I developed a method to double the spatial resolution of a <a href="https://www.southampton.ac.uk/muvis/about/equipment/hutch.page">Nikon X-tek micro-computed tomographic imager</a>.
 
-Looking forward to experimental validation...
 
 <div class="columns spacing">
 	<div style="text-align:center">

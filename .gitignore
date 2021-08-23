@@ -3,4 +3,5 @@ _skillsplanning/
 _local/
 .sass-cache/
 .jekyll-metadata
+documents/legacy
 vendor
