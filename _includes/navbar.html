@@ -23,7 +23,7 @@
     </button>
 
     <div class="collapse navbar-collapse" id="navbarToggler">
-        <ul class="navbar ml-auto d-lg-flex align-items-center list-unstyled">
+        <ul class="navbar ml-auto d-lg-flex align-items-center list-unstyled" style="margin:0em">
             {% assign navigation_pages = site.html_pages | sort: 'navigation_weight' %}
             {% for p in navigation_pages %}
             {% if p.navigation_weight %}
