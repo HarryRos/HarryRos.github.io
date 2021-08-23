@@ -18,6 +18,6 @@ This particular part was challenging to image with <nobr>X-ray</nobr> <nobr>micr
 
 Tilted angle laminography (TAL) is an unconventional method to position the part with respect to the X-ray gun and detector in order to minimise the X-ray path through the part. To perform TAL, I designed and **3D-printed** a bracket for accurate positioning of the part inside the CT scanner. I then **formulated a mathematical representation** of the geometry and **customized an open-source** <a href="https://github.com/CERN/TIGRE">CT reconstruction package</a> for this purpose.
 
-X-ray Compton scattering inevitably occurs when high X-ray energies are used to penetrate dense materials. I employed an **experimental approach** to estimate the and remove the scatter that involved the design of a lead perforated sheet and subsequent image processing.
+X-ray Compton scattering inevitably occurs when high X-ray energies are employed to penetrate dense materials. I used an **experimental approach** to estimate and remove the scatter that involved designing a perforated lead sheet and subsequent image processing.
 
-The two methods combined enabled Rolls Royce to put together a workflow for **non-destructive examination** (NDE) of parts designed for next-generation jet engines with high performance and reliability.
+Combining the two methods enabled Rolls Royce to put a workflow together for **non-destructive examination** (NDE) of parts designed for next-generation jet engines with high performance and reliability.
